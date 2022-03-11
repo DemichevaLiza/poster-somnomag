@@ -1,0 +1,844 @@
+body {
+  background-color: #EDF8FF;
+  overflow: hidden;
+}
+
+h1 {
+  position: relative;
+  margin-top: 70px;
+  margin-left: 164px;
+  font-family: 'Comfortaa', cursive;
+  font-style: normal;;
+  font-size: 48px;
+  color: #313F86;
+}
+
+p {
+  position: relative;
+  width: 392px;
+  margin-left: 164px;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #313F86;
+}
+
+.sectionmain {
+  display: block;
+}
+
+.section1{
+  display: none;
+}
+
+.window4 {
+  position: absolute;
+  width: 309px;
+  height: 145px;
+  margin-left: 164px;
+  margin-top: 380px;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
+  box-sizing: border-box;
+  border-radius: 40px;
+  z-index: 4;
+}
+
+.p4 {
+  width: 242px;
+  margin-left: 33px;
+  margin-top: 51px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313F86;
+}
+
+.sectionballs{
+  display: none;
+  overflow:hidden;
+  height: 1024px;
+  width: 1920px;
+}
+
+.balls {
+  position: relative;
+  overflow: hidden;
+  width: 1920px;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+}
+.ball {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+}
+
+.ball-on {
+  position: relative;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: #313F86;
+  z-index: -4;
+}
+
+.section2{
+  display: none;
+}
+
+.section3{
+  display: none;
+}
+
+.section4{
+  display: none;
+}
+
+.section5{
+  display: none;
+}
+
+.section6{
+  display: none;
+}
+
+.sectionswa {
+  display: block;
+}
+
+.sectionswb {
+  display: block;
+}
+
+.sectionswc {
+  display: block;
+}
+
+.sectionswd {
+  display: block;
+}
+
+.sectionswe {
+  display: block;
+}
+
+.sectionswf {
+  display: block;
+}
+
+.p1 {
+  width: 242px;
+  margin-left: 33px;
+  margin-top: 42px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313F86;
+}
+
+
+.p2 {
+  width: 290px;
+  margin-left: 16px;
+  margin-top: 51px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313F86;
+}
+
+.p3 {
+  width: 211px;
+  margin-left: 45px;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #313F86;
+}
+
+.winflex{
+display: flex;
+}
+
+.window1 {
+  position: relative;
+  width: 309px;
+  height: 145px;
+  margin-left: 164px;
+  margin-top: 110px;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.window2 {
+  position: relative;
+  width: 309px;
+  height: 145px;
+  margin-left: 430px;
+  margin-top: 450px;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.window3 {
+  position: relative;
+  width: 309px;
+  height: 145px;
+  margin-left: 230px;
+  margin-top: -120px;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+/* Первый перключатель */
+.switcha {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 169px;
+    top: 608px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switcha::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background:#EDF8FF; /* цвет кнопки */
+    border: 2px solid #313F86;
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.switcha-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switcha-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+.img1{
+  margin-left: 28px;
+  margin-top: 25px;
+  height: 50px;
+  z-index: 2;
+  width: 40px;
+  transition-duration: 2s;
+  position: absolute;
+  background-image: url('../img/moonblue.svg');
+}
+
+.img1-on {
+  content: "";
+  margin-left: 235px;
+  margin-top: 25px;
+  height: 50px;
+  z-index: 2;
+  width: 40px;
+  position: absolute;
+  background-image: url('../img/moonwhite.svg');
+}
+
+.img2{
+  margin-left: 25px;
+  margin-top: 38px;
+  height: 25px;
+  z-index: 2;
+  width: 51px;
+  transition-duration: 2s;
+  position: absolute;
+  background-image: url('../img/mask.svg');
+}
+
+.img2-on {
+  content: "";
+  margin-left: 232px;
+  margin-top: 38px;
+  height: 25px;
+  z-index: 2;
+  width: 51px;
+  position: absolute;
+  background-image: url('../img/maskwhite.svg');
+}
+
+.img3{
+  margin-left: 28px;
+  margin-top: 28px;
+  height: 45px;
+  z-index: 2;
+  width: 45px;
+  transition-duration: 2s;
+  position: absolute;
+  background-image: url('../img/switchstar.svg');
+}
+
+.img3-on {
+  content: "";
+  margin-left: 236px;
+  margin-top: 28px;
+  height: 45px;
+  z-index: 2;
+  width: 45px;
+  position: absolute;
+  background-image: url('../img/switchstarwhite.svg');
+}
+
+
+/* Второй переключатель */
+.switchb {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 324px;
+    top: 785px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switchb::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background: #EDF8FF; /* цвет кнопки */
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+.switchb-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switchb-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+/* Третий переключатель */
+.switchc {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 743px;
+    top: 295px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switchc::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background: #EDF8FF; /* цвет кнопки */
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+.switchc-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switchc-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+/* Четвёртый переключатель */
+.switchd {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 910px;
+    top: 507px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switchd::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background: #EDF8FF; /* цвет кнопки */
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+.switchd-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switchd-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+/* Пятый переключатель */
+.switche {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 1447px;
+    top: 507px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switche::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background: #EDF8FF; /* цвет кнопки */
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+.switche-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switche-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+
+/* Шестой переключатель */
+.switchf {
+    position: absolute;
+    width: 309px;
+    height: 101px;
+    left: 1447px;
+    top: 785px;
+    border-radius: 100px;
+    border: 2px #313F86;
+    background:#313F86;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.switchf::after {
+    content: "";
+    height: 71px; /* высота кнопки */
+    width: 71px; /* ширина кнопки */
+    border-radius: 100px;
+    background: #EDF8FF; /* цвет кнопки */
+    top: 14px;
+    left: 15px;
+    transition-duration: 2s;
+    position: absolute;
+    z-index: 1;
+}
+.switchf-on {
+    background: #EDF8FF;
+    border: 2px solid #313F86;
+}
+.switchf-on::after {
+    left: 220px;
+    background: #313F86;
+    border: 2px solid #313F86;
+}
+
+.futer {
+  display: flex;
+  margin-top: 95px;
+  margin-left: 1282px;
+}
+
+.name {
+  margin-right: 0px;
+  width: 135px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #313F86;
+}
+
+.group {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #313F86;
+  margin-left: 50px;
+}
+
+.hseadc {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #313F86;
+  margin-left: 50px;
+}
+
+.year {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #313F86;
+  margin-left: 50px;
+}
+
+.star1 {
+  position: absolute;
+  left: 81px;
+  top: 175px;
+}
+
+.star2 {
+  position: absolute;
+  left: 230px;
+  top: 780px;
+}
+
+.star3 {
+  position: absolute;
+  left: 710px;
+  top: 550px;
+}
+
+.star4 {
+  position: absolute;
+  left: 1010px;
+  top: 113px;
+}
+
+.star5 {
+  position: absolute;
+  left: 960px;
+  top: 915px;
+}
+
+.star6 {
+  position: absolute;
+  left: 1315px;
+  top: 763px;
+}
+
+.star7 {
+  position: absolute;
+  left: 1330px;
+  top: 268px;
+}
+
+.star8 {
+  position: absolute;
+  left: 1700px;
+  top: 380px;
+}
+
+.star9 {
+  position: absolute;
+  left: 1815px;
+  top: 600px;
+}
+
+.circles {
+  position: absolute;
+}
+.circle1 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  str: 1px solid #313F86;
+  animation: circle1 15s linear infinite;
+}
+
+@keyframes circle1 {
+  0% {transform: scale(100%);}
+  100% {transform: scale(1000%);}
+}
+
+.circle2 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle2 16s linear infinite;
+}
+
+@keyframes circle2 {
+  0% {opacity: 0%}
+  5% {transform: scale(100%); opacity: 0%}
+  10% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle3 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle3 17s linear infinite;
+}
+
+@keyframes circle3 {
+  0% {opacity: 0%}
+  10% {transform: scale(100%); opacity: 0%}
+  15% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle4 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle4 18s linear infinite;
+}
+
+@keyframes circle4 {
+  0% {opacity: 0%}
+  15% {transform: scale(100%); opacity: 0%}
+  20% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle5 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle5 19s linear infinite;
+}
+
+@keyframes circle5 {
+  0% {opacity: 0%}
+  20% {transform: scale(100%); opacity: 0%}
+  25% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle6 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle6 20s linear infinite;
+}
+
+@keyframes circle6 {
+  0% {opacity: 0%}
+  25% {transform: scale(100%); opacity: 0%}
+  30% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle7 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle7 21s linear infinite;
+}
+
+@keyframes circle7 {
+  0% {opacity: 0%}
+  30% {transform: scale(100%); opacity: 0%}
+  35% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle8 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle8 22s linear infinite;
+}
+
+@keyframes circle8 {
+  0% {opacity: 0%}
+  35% {transform: scale(100%); opacity: 0%}
+  40% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle9 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle9 23s linear infinite;
+}
+
+@keyframes circle9 {
+  0% {opacity: 0%}
+  40% {transform: scale(100%); opacity: 0%}
+  45% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle10 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle10 24s linear infinite;
+}
+
+@keyframes circle10 {
+  0% {opacity: 0%}
+  45% {transform: scale(100%); opacity: 0%}
+  50% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle11 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle11 25s linear infinite;
+}
+
+@keyframes circle11 {
+  0% {opacity: 0%}
+  50% {transform: scale(100%); opacity: 0%}
+  55% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle12 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle12 26s linear infinite;
+}
+
+@keyframes circle12 {
+  0% {opacity: 0%}
+  55% {transform: scale(100%); opacity: 0%}
+  60% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+
+.circle13 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle13 27s linear infinite;
+}
+
+@keyframes circle13 {
+  0% {opacity: 0%}
+  60% {transform: scale(100%); opacity: 0%}
+  65% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+}
+
+.circle15 {
+  position: absolute;
+  left: -200px;
+  top: -200px;
+  width: 440px;
+  height: 440px;
+  border-radius: 100%;
+  border: 1px solid #313F86;
+  animation: circle15 29s linear infinite;
+}
+
+@keyframes circle15 {
+  0% {opacity: 0%}
+  70% {transform: scale(100%); opacity: 0%}
+  75% {opacity: 100%;}
+  100% {transform: scale(1000%);}
+} */
