@@ -33,18 +33,6 @@ p {
   display: none;
 }
 
-.window4 {
-  position: absolute;
-  width: 309px;
-  height: 145px;
-  margin-left: 164px;
-  margin-top: 380px;
-  background: #EDF8FF;
-  border: 2px solid #313F86;
-  box-sizing: border-box;
-  border-radius: 40px;
-  z-index: 4;
-}
 
 .p4 {
   width: 242px;
@@ -179,39 +167,42 @@ display: flex;
 }
 
 .window1 {
-  position: relative;
+  position: absolute;
   width: 309px;
   height: 145px;
   margin-left: 164px;
-  margin-top: 110px;
+  margin-top: 397px;
   background: #EDF8FF;
   border: 2px solid #313F86;
   box-sizing: border-box;
   border-radius: 40px;
+  z-index: 4;
 }
 
 .window2 {
-  position: relative;
+  position: absolute;
   width: 309px;
   height: 145px;
-  margin-left: 430px;
-  margin-top: 450px;
+  margin-left: 910px;
+  margin-top: 740px;
   background: #EDF8FF;
   border: 2px solid #313F86;
   box-sizing: border-box;
   border-radius: 40px;
+  z-index: 4;
 }
 
 .window3 {
-  position: relative;
+  position:absolute;
   width: 309px;
   height: 145px;
-  margin-left: 230px;
-  margin-top: -120px;
+  margin-left: 1450px;
+  margin-top: 167px;
   background: #EDF8FF;
   border: 2px solid #313F86;
   box-sizing: border-box;
   border-radius: 40px;
+  z-index: 4;
 }
 
 /* Первый перключатель */
@@ -497,7 +488,7 @@ display: flex;
 
 .futer {
   display: flex;
-  margin-top: 95px;
+  margin-top: 692px;
   margin-left: 1282px;
 }
 
