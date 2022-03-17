@@ -1,14 +1,21 @@
 body {
   background-color: #EDF8FF;
   overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+}
+
+.body-on {
+  background-color: #313F86;
 }
 
 h1 {
   position: relative;
-  margin-top: 70px;
+  margin-top: 110px;
   margin-left: 164px;
   font-family: 'Comfortaa', cursive;
-  font-style: normal;;
+  font-style: normal;
+  ;
   font-size: 48px;
   color: #313F86;
 }
@@ -29,38 +36,34 @@ p {
   display: block;
 }
 
-.section1{
+.main-off {
   display: none;
 }
 
-
-.p4 {
-  width: 242px;
-  margin-left: 33px;
-  margin-top: 51px;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #313F86;
+.section1 {
+  display: none;
 }
 
-.sectionballs{
+.s1 {
+  display: block;
+}
+
+
+.sectionballs {
   display: none;
-  overflow:hidden;
-  height: 1024px;
-  width: 1920px;
+}
+
+.sballs-off {
+  display: block;
 }
 
 .balls {
   position: relative;
   overflow: hidden;
-  width: 1920px;
-  height: auto;
   display: flex;
   flex-flow: row;
 }
+
 .ball {
   position: relative;
   margin-left: 10px;
@@ -70,6 +73,359 @@ p {
   height: 70px;
   background: #313F86;
   z-index: -4;
+  animation: ball 8s infinite;
+}
+
+.ball1 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball1 8s infinite;
+}
+
+.ball2 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball2 8s infinite;
+}
+
+.ball3 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball3 8s infinite;
+}
+
+.ball4 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball4 8s infinite;
+}
+
+.ball5 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball5 8s infinite;
+}
+
+.ball6 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball6 8s infinite;
+}
+
+.ball7 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball7 8s infinite;
+}
+
+.ball8 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball8 8s infinite;
+}
+
+.ball9 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball9 8s infinite;
+}
+
+.ball10 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball10 8s infinite;
+}
+
+.ball11 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball11 8s infinite;
+}
+
+.ball12 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball12 8s infinite;
+}
+
+.ball13 {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  background: #313F86;
+  z-index: -4;
+  animation: ball13 8s infinite;
+}
+
+@keyframes ball {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball1 {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball2 {
+  0% {
+    transform: scale(1);
+  }
+
+  30% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball3 {
+  0% {
+    transform: scale(1);
+  }
+
+  35% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball4 {
+  0% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball5 {
+  0% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball6 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball7 {
+  0% {
+    transform: scale(1);
+  }
+
+  55% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball8 {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball9 {
+  0% {
+    transform: scale(1);
+  }
+
+  65% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball10 {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball11 {
+  0% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball12 {
+  0% {
+    transform: scale(1);
+  }
+
+  80% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes ball13 {
+  0% {
+    transform: scale(1);
+  }
+
+  85% {
+    transform: scale(0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .ball-on {
@@ -79,25 +435,51 @@ p {
   height: 50px;
   background: #313F86;
   z-index: -4;
+  animation:
 }
 
-.section2{
+.section2 {
   display: none;
 }
 
-.section3{
+.s2 {
+  display: block;
+}
+
+.s3 {
+  display: block;
+}
+
+.s4 {
+  display: block;
+  z-index: 4;
+}
+
+.s5 {
+  display: block;
+}
+
+.s6 {
+  display: block;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.section3 {
   display: none;
 }
 
-.section4{
+.section4 {
   display: none;
 }
 
-.section5{
+.section5 {
   display: none;
 }
 
-.section6{
+.section6 {
   display: none;
 }
 
@@ -105,28 +487,52 @@ p {
   display: block;
 }
 
+.swa-off {
+  display: none;
+}
+
 .sectionswb {
   display: block;
+}
+
+.swb-off {
+  display: none;
 }
 
 .sectionswc {
   display: block;
 }
 
+.swc-off {
+  display: none;
+}
+
 .sectionswd {
   display: block;
+}
+
+.swd-off {
+  display: none;
 }
 
 .sectionswe {
   display: block;
 }
 
+.swe-off {
+  display: none;
+}
+
 .sectionswf {
   display: block;
 }
 
+.swf-off {
+  display: none;
+}
+
 .p1 {
-  width: 242px;
+  width: 230px;
   margin-left: 33px;
   margin-top: 42px;
   font-family: 'Raleway', sans-serif;
@@ -138,32 +544,8 @@ p {
 }
 
 
-.p2 {
-  width: 290px;
-  margin-left: 16px;
-  margin-top: 51px;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #313F86;
-}
-
-.p3 {
-  width: 211px;
-  margin-left: 45px;
-  margin-top: 50px;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #313F86;
-}
-
-.winflex{
-display: flex;
+.winflex {
+  display: flex;
 }
 
 .window1 {
@@ -193,7 +575,7 @@ display: flex;
 }
 
 .window3 {
-  position:absolute;
+  position: absolute;
   width: 309px;
   height: 145px;
   margin-left: 1450px;
@@ -207,43 +589,47 @@ display: flex;
 
 /* Первый перключатель */
 .switcha {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 169px;
-    top: 608px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
-}
-.switcha::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background:#EDF8FF; /* цвет кнопки */
-    border: 2px solid #313F86;
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 169px;
+  top: 608px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
 
+.switcha::after {
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  border: 2px solid #313F86;
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
+}
 
 .switcha-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
-}
-.switcha-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
 }
 
-.img1{
+.switcha-on::after {
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
+}
+
+.img1 {
   margin-left: 28px;
   margin-top: 25px;
   height: 50px;
@@ -265,7 +651,7 @@ display: flex;
   background-image: url('../img/moonwhite.svg');
 }
 
-.img2{
+.img2 {
   margin-left: 25px;
   margin-top: 38px;
   height: 25px;
@@ -287,7 +673,7 @@ display: flex;
   background-image: url('../img/maskwhite.svg');
 }
 
-.img3{
+.img3 {
   margin-left: 28px;
   margin-top: 28px;
   height: 45px;
@@ -309,181 +695,209 @@ display: flex;
   background-image: url('../img/switchstarwhite.svg');
 }
 
-
 /* Второй переключатель */
 .switchb {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 324px;
-    top: 785px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 324px;
+  top: 785px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
+
 .switchb::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background: #EDF8FF; /* цвет кнопки */
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
 }
+
 .switchb-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
 }
+
 .switchb-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
 }
 
 /* Третий переключатель */
 .switchc {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 743px;
-    top: 295px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 743px;
+  top: 295px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
+
 .switchc::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background: #EDF8FF; /* цвет кнопки */
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
 }
+
 .switchc-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
 }
+
 .switchc-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
 }
 
 /* Четвёртый переключатель */
 .switchd {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 910px;
-    top: 507px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 910px;
+  top: 507px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
+
 .switchd::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background: #EDF8FF; /* цвет кнопки */
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
 }
+
 .switchd-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
 }
+
 .switchd-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
 }
 
 /* Пятый переключатель */
 .switche {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 1447px;
-    top: 507px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
-}
-.switche::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background: #EDF8FF; /* цвет кнопки */
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
-}
-.switche-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
-}
-.switche-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 1447px;
+  top: 507px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
 
+.switche::after {
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
+}
+
+.switche-on {
+  background: #EDF8FF;
+  border: 2px solid #313F86;
+}
+
+.switche-on::after {
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
+}
 
 /* Шестой переключатель */
 .switchf {
-    position: absolute;
-    width: 309px;
-    height: 101px;
-    left: 1447px;
-    top: 785px;
-    border-radius: 100px;
-    border: 2px #313F86;
-    background:#313F86;
-    cursor: pointer;
-    transition-duration: 1.5s;
+  position: absolute;
+  width: 309px;
+  height: 101px;
+  left: 1447px;
+  top: 785px;
+  border-radius: 100px;
+  border: 2px #313F86;
+  background: #313F86;
+  cursor: pointer;
+  transition-duration: 1.5s;
 }
+
 .switchf::after {
-    content: "";
-    height: 71px; /* высота кнопки */
-    width: 71px; /* ширина кнопки */
-    border-radius: 100px;
-    background: #EDF8FF; /* цвет кнопки */
-    top: 14px;
-    left: 15px;
-    transition-duration: 2s;
-    position: absolute;
-    z-index: 1;
+  content: "";
+  height: 71px;
+  /* высота кнопки */
+  width: 71px;
+  /* ширина кнопки */
+  border-radius: 100px;
+  background: #EDF8FF;
+  /* цвет кнопки */
+  top: 14px;
+  left: 15px;
+  transition-duration: 2s;
+  position: absolute;
+  z-index: 1;
 }
+
 .switchf-on {
-    background: #EDF8FF;
-    border: 2px solid #313F86;
+  background: #EDF8FF;
+  border: 2px solid #313F86;
 }
+
 .switchf-on::after {
-    left: 220px;
-    background: #313F86;
-    border: 2px solid #313F86;
+  left: 220px;
+  background: #313F86;
+  border: 2px solid #313F86;
 }
 
 .futer {
@@ -578,6 +992,7 @@ display: flex;
 .circles {
   position: absolute;
 }
+
 .circle1 {
   position: absolute;
   left: -200px;
@@ -590,8 +1005,13 @@ display: flex;
 }
 
 @keyframes circle1 {
-  0% {transform: scale(100%);}
-  100% {transform: scale(1000%);}
+  0% {
+    transform: scale(100%);
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle2 {
@@ -606,10 +1026,22 @@ display: flex;
 }
 
 @keyframes circle2 {
-  0% {opacity: 0%}
-  5% {transform: scale(100%); opacity: 0%}
-  10% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  5% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  10% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle3 {
@@ -624,10 +1056,22 @@ display: flex;
 }
 
 @keyframes circle3 {
-  0% {opacity: 0%}
-  10% {transform: scale(100%); opacity: 0%}
-  15% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  10% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  15% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle4 {
@@ -642,10 +1086,22 @@ display: flex;
 }
 
 @keyframes circle4 {
-  0% {opacity: 0%}
-  15% {transform: scale(100%); opacity: 0%}
-  20% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  15% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  20% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle5 {
@@ -660,10 +1116,22 @@ display: flex;
 }
 
 @keyframes circle5 {
-  0% {opacity: 0%}
-  20% {transform: scale(100%); opacity: 0%}
-  25% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  20% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  25% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle6 {
@@ -678,10 +1146,22 @@ display: flex;
 }
 
 @keyframes circle6 {
-  0% {opacity: 0%}
-  25% {transform: scale(100%); opacity: 0%}
-  30% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  25% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  30% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle7 {
@@ -696,12 +1176,23 @@ display: flex;
 }
 
 @keyframes circle7 {
-  0% {opacity: 0%}
-  30% {transform: scale(100%); opacity: 0%}
-  35% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  30% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  35% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle8 {
   position: absolute;
@@ -715,12 +1206,23 @@ display: flex;
 }
 
 @keyframes circle8 {
-  0% {opacity: 0%}
-  35% {transform: scale(100%); opacity: 0%}
-  40% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  35% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  40% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle9 {
   position: absolute;
@@ -734,12 +1236,23 @@ display: flex;
 }
 
 @keyframes circle9 {
-  0% {opacity: 0%}
-  40% {transform: scale(100%); opacity: 0%}
-  45% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  40% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  45% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle10 {
   position: absolute;
@@ -753,12 +1266,23 @@ display: flex;
 }
 
 @keyframes circle10 {
-  0% {opacity: 0%}
-  45% {transform: scale(100%); opacity: 0%}
-  50% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  45% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  50% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle11 {
   position: absolute;
@@ -772,12 +1296,23 @@ display: flex;
 }
 
 @keyframes circle11 {
-  0% {opacity: 0%}
-  50% {transform: scale(100%); opacity: 0%}
-  55% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  50% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  55% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle12 {
   position: absolute;
@@ -791,12 +1326,23 @@ display: flex;
 }
 
 @keyframes circle12 {
-  0% {opacity: 0%}
-  55% {transform: scale(100%); opacity: 0%}
-  60% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-}
+  0% {
+    opacity: 0%
+  }
 
+  55% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  60% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
 
 .circle13 {
   position: absolute;
@@ -810,10 +1356,22 @@ display: flex;
 }
 
 @keyframes circle13 {
-  0% {opacity: 0%}
-  60% {transform: scale(100%); opacity: 0%}
-  65% {opacity: 100%;}
-  100% {transform: scale(1000%);}
+  0% {
+    opacity: 0%
+  }
+
+  60% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  65% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
 }
 
 .circle15 {
@@ -828,8 +1386,58 @@ display: flex;
 }
 
 @keyframes circle15 {
-  0% {opacity: 0%}
-  70% {transform: scale(100%); opacity: 0%}
-  75% {opacity: 100%;}
-  100% {transform: scale(1000%);}
-} */
+  0% {
+    opacity: 0%
+  }
+
+  70% {
+    transform: scale(100%);
+    opacity: 0%
+  }
+
+  75% {
+    opacity: 100%;
+  }
+
+  100% {
+    transform: scale(1000%);
+  }
+}
+
+.clouds {
+  display: none;
+}
+
+.cloudsshow {
+  display: block;
+}
+
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6, .cloud7 {
+  display: block;
+}
+
+ .cloud1sh, .cloud2sh, .cloud3sh, .cloud4sh, .cloud5sh, .cloud6sh, .cloud7sh {
+  display: none;
+}
+
+.cloud1 {
+  background-image:url('../img/cloud1');
+}
+.cloud2 {
+  background-image:url('../img/cloud2');
+}
+.cloud3 {
+  background-image:url('../img/cloud3');
+}
+.cloud4 {
+  background-image:url('../img/cloud4');
+}
+.cloud5 {
+  background-image:url('../img/cloud5');
+}
+.cloud6 {
+  background-image:url('../img/cloud6');
+}
+.cloud7 {
+  background-image:url('../img/cloud7');
+}
