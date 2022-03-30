@@ -8,7 +8,14 @@ body {
 .body-on {
   background-color: #313F86;
 }
-
+a{
+   text-decoration: none;
+   color:  #313F86;
+}
+a:hover {
+  color: #313F86;
+  border-bottom: .07em solid;
+}
 h1 {
   position: relative;
   margin-top: 110px;
@@ -67,6 +74,8 @@ p {
 .sheepmain1, .sheepmain2, .sheepmain3, .sheepmain4, .sheepmain5, .sheepmain6, .sheepmain7, .sheepmain8, .sheepmain9, .sheepmain10,
 .sheepmain11, .sheepmain12 {
   background-image: url('../img/sheepmain.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .sheep1 {
@@ -847,11 +856,14 @@ overflow: hidden;
   border: 2px solid #313F86;
 }
 
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  background-repeat: no-repeat;
+}
+
 .img1 {
   left: 20%;
   top: 15%;
   height: 50px;
-  background-repeat: no-repeat;
   z-index: 2;
   width: 40px;
   transition-duration: 2s;
@@ -1180,9 +1192,11 @@ overflow: hidden;
   display: flex;
   margin-top: 620px;
   margin-left: 1282px;
+  z-index: 4;
 }
 
 .name {
+  z-index: 4;
   margin-right: 0px;
   width: 135px;
   font-size: 18px;
@@ -1191,6 +1205,7 @@ overflow: hidden;
 }
 
 .group {
+  z-index: 4;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   color: #313F86;
@@ -1198,6 +1213,7 @@ overflow: hidden;
 }
 
 .hseadc {
+  z-index: 4;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   color: #313F86;
@@ -1205,6 +1221,7 @@ overflow: hidden;
 }
 
 .year {
+  z-index: 4;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
   color: #313F86;
