@@ -999,6 +999,7 @@ svg {
 .switchb-on {
   background: #EDF8FF;
   border: 2px solid #313F86;
+  z-index: 1;
 }
 
 .circleswitchb-on {
@@ -1959,7 +1960,7 @@ svg {
 
 .star-random12 {
   transform: rotate(25deg);
-  top: 40%;
+  top: 45%;
   left: 40%;
 }
 
@@ -2013,10 +2014,9 @@ svg {
   display: block;
 }
 
-.figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7, .figure8, .figure9, .figure10, .figure11, .figure12 {
+.figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7, .figure8, .figure9, .figure10, .figure11, .figure12, .figure13 {
   position: absolute;
   background-size: 100%;
-  cursor: pointer;
 }
 
 .figure1 {
@@ -2024,7 +2024,8 @@ svg {
   background-repeat: no-repeat;
   width: 260px;
   height: 255px;
-  animation: figure1 10s linear infinite;
+  left: 3%;
+  animation: figure1 5s linear infinite;
 }
 
 .figure2 {
@@ -2032,8 +2033,8 @@ svg {
   background-repeat: no-repeat;
   width: 500px;
   height: 360px;
-  left: 5%;
-  animation: figure2 10s linear infinite;
+  left: 10%;
+  animation: figure2 5s linear infinite;
 }
 
 .figure3 {
@@ -2041,14 +2042,105 @@ svg {
   background-repeat: no-repeat;
   width:425px;
   height: 590px;
+  left: 33%;
+  animation: figure3 5s linear infinite;
+}
+
+.figure4 {
+  background-image: url('../img/figure4.svg');
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 255px;
+  left: 52%;
+  animation: figure4 5s linear infinite;
+}
+
+.figure5 {
+  background-image: url('../img/figure5.svg');
+  background-repeat: no-repeat;
+  width: 345px;
+  height: 595px;
+  left: 63%;
+  animation: figure5 5s linear infinite;
+}
+
+.figure6 {
+  background-image: url('../img/figure6.svg');
+  background-repeat: no-repeat;
+  width:425px;
+  height: 590px;
+  left: 75%;
+  animation: figure6 5s linear infinite;
+}
+
+.figure7 {
+  background-image: url('../img/figure1.svg');
+  background-repeat: no-repeat;
+  width: 192px;
+  height: 220px;
+  left: 5%;
+  top: 53%;
+  animation: figure7 5s linear infinite;
+}
+
+.figure8 {
+  background-image: url('../img/figure8.svg');
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 308px;
+  top: 70%;
+  animation: figure8 5s linear infinite;
+}
+
+.figure9 {
+  background-image: url('../img/figure9.svg');
+  background-repeat: no-repeat;
+  width:425px;
+  height: 590px;
   left: 25%;
-  animation: figure3 10s linear infinite;
+  top: 50%;
+  animation: figure9 5s linear infinite;
 }
 
-.figure1-on, .figure2-on, .figure3-on, .figure4-on, .figure5-on, .figure6-on, .figure7-on, .figure8-on, .figure9-on, .figure10-on, .figure11-on, .figure12-on, {
-  animation-play-state: paused;
+.figure10 {
+  background-image: url('../img/figure10.svg');
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 255px;
+  left: 48%;
+  top: 50%;
+  animation: figure10 5s linear infinite;
 }
 
+.figure11 {
+  background-image: url('../img/figure11.svg');
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 446px;
+  left: 52%;
+  top: 55%;
+  animation: figure11 5s linear infinite;
+}
+
+.figure12 {
+  background-image: url('../img/figure12.svg');
+  background-repeat: no-repeat;
+  width: 308px;
+  height: 339px;
+  left: 78%;
+  top: 40%;
+  animation: figure12 5s linear infinite;
+}
+
+.figure13 {
+  background-image: url('../img/figure13.svg');
+  background-repeat: no-repeat;
+  width: 308px;
+  height: 339px;
+  left: 80%;
+  top: 72%;
+  animation: figure13 5s linear infinite;
+}
 
 @keyframes figure1 {
   0% {background-image: url('../img/figure1.svg');}
@@ -2120,4 +2212,10 @@ svg {
   0% {background-image: url('../img/figure12.svg');}
   50% {background-image: url('../img/figure12on.svg');}
   100% {background-image: url('../img/figure12.svg');}
+}
+
+@keyframes figure13 {
+  0% {background-image: url('../img/figure13.svg');}
+  50% {background-image: url('../img/figure13on.svg');}
+  100% {background-image: url('../img/figure13.svg');}
 }

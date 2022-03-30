@@ -347,15 +347,3 @@
       $(this).toggleClass("star-random14-on");
     });
   });
-
-  $(document).ready(function() {
-    $('.figure1').click(function() {
-      $('.figure1').toggleClass("figure1-on");
-    });
-  });
-
-  $(document).ready(function() {
-    $('.figure3').click(function() {
-      $('.figure3').toggleClass("figure3-on");
-    });
-  });
