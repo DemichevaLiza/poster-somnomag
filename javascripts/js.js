@@ -167,6 +167,7 @@
 });
   });
 
+
   $(document).ready (function() {
   $(".cloud7").click( function() {
   $('.cloud7').detach();
@@ -261,6 +262,60 @@
   $(document).ready(function() {
     $('.rope3').click(function() {
       $(".rope3").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope4').click(function() {
+      $(".rope4").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope5').click(function() {
+      $(".rope5").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope6').click(function() {
+      $(".rope6").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope7').click(function() {
+      $(".rope7").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope8').click(function() {
+      $(".rope8").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope9').click(function() {
+      $(".rope9").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope10').click(function() {
+      $(".rope10").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope11').click(function() {
+      $(".rope11").toggleClass("rope-swing");
+    });
+  });
+
+  $(document).ready(function() {
+    $('.rope12').click(function() {
+      $(".rope12").toggleClass("rope-swing");
     });
   });
 

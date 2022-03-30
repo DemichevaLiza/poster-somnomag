@@ -142,8 +142,9 @@ cursor: pointer;
   background-image: url('../img/rope1.svg');
   width:41px;
   height: 688px;
-  margin-left: 58px;
-  animation: rope1 2s linear;
+  left: 58px;
+  top: -688px;
+  animation: rope1 2s ease forwards;
 }
 
 @keyframes rope1 {
@@ -151,23 +152,13 @@ cursor: pointer;
   100% {top: 0px;}
 }
 
-.rope-swing {
-  animation: swing 3s linear infinite;
-}
-
- @keyframes swing {
-   0% {transform: rotateZ(0deg) translateX(0px);}
-   25% {transform: rotateZ(2deg) translateX(-25px);}
-   50% {transform: rotateZ(0deg) translateX(0px);}
-   75% {transform: rotateZ(-2deg) translateX(25px);}
-   /* 100% {transform: rotateZ(0,5deg) translateX(0px);;} */
- }
 .rope2 {
   background-image: url('../img/rope2.svg');
   width:58px;
   height: 454px;
-  margin-left: 186px;
-  animation: rope2 3s;
+  left: 186px;
+  top: -455px;
+  animation: rope2 3s ease forwards;
 }
 
 @keyframes rope2 {
@@ -179,8 +170,9 @@ cursor: pointer;
   background-image: url('../img/rope3.svg');
   width:116px;
   height: 245px;
-  margin-left: 302px;
-  animation: rope3 1s;
+  left: 302px;
+  top: -245px;
+  animation: rope3 1s ease forwards;
 }
 
 @keyframes rope3 {
@@ -192,8 +184,9 @@ cursor: pointer;
   background-image: url('../img/rope4.svg');
   width:131px;
   height: 691px;
-  margin-left: 484px;
-  animation: rope4 4s;
+  left: 484px;
+  top: -691px;
+  animation: rope4 4s ease forwards;
 }
 
 @keyframes rope4 {
@@ -205,8 +198,9 @@ cursor: pointer;
   background-image: url('../img/rope5.svg');
   width:69px;
   height: 898px;
-  margin-left: 696px;
-  animation: rope5 2s;
+  left: 696px;
+  top: -898px;
+  animation: rope5 2s ease forwards;
 }
 
 @keyframes rope5 {
@@ -218,8 +212,9 @@ cursor: pointer;
   background-image: url('../img/rope6.svg');
   width:41px;
   height: 292px;
-  margin-left: 842px;
-  animation: rope6 1s;
+  left: 842px;
+  top: -292px;
+  animation: rope6 1s ease forwards;
 }
 
 @keyframes rope6 {
@@ -231,7 +226,7 @@ cursor: pointer;
   background-image: url('../img/rope7.svg');
   width:235px;
   height: 698px;
-  left: 842px;
+  left: 900px;
   top: -698px;
   animation: rope7 5s ease forwards;
 }
@@ -245,8 +240,9 @@ cursor: pointer;
   background-image: url('../img/rope8.svg');
   width:198px;
   height: 903px;
-  margin-left: 1164px;
-  animation: rope8 2s;
+  left: 1164px;
+  top: -903px;
+  animation: rope8 2s ease forwards;
 }
 
 @keyframes rope8 {
@@ -258,8 +254,9 @@ cursor: pointer;
   background-image: url('../img/rope9.svg');
   width:90px;
   height: 353px;
-  margin-left: 1365px;
-  animation: rope9 3s;
+  left: 1365px;
+  top: -353px;
+  animation: rope9 3s ease forwards;
 }
 
 @keyframes rope9 {
@@ -271,9 +268,10 @@ cursor: pointer;
   background-image: url('../img/rope10.svg');
   width:41px;
   height: 691px;
-  margin-left: 1528px;
+  left: 1528px;
+  top: -691px;
   z-index: 0;
-  animation: rope10 1s;
+  animation: rope10 1s ease forwards;
 }
 
 @keyframes rope10 {
@@ -286,8 +284,9 @@ cursor: pointer;
   background-image: url('../img/rope12.svg');
   width:100px;
   height: 555px;
-  margin-left: 1804px;
-  animation: rope12 4s;
+  left: 1804px;
+  top: -555px;
+  animation: rope12 4s ease forwards;
 }
 
 @keyframes rope12 {
@@ -295,7 +294,17 @@ cursor: pointer;
   100% {top: 0px;}
 }
 
+.rope-swing {
+  animation: swing 3s linear infinite;
+  top: 0px;
+}
 
+ @keyframes swing {
+   0% {transform: rotateZ(0deg) translateX(0px);}
+   25% {transform: rotateZ(2deg) translateX(-25px);}
+   50% {transform: rotateZ(0deg) translateX(0px);}
+   75% {transform: rotateZ(-2deg) translateX(25px);}
+}
 
 
 
@@ -758,7 +767,7 @@ svg {
 }
 
 .p2 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 
 .winflex {
