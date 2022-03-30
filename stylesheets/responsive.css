@@ -2259,16 +2259,9 @@ p{
   left: 1100px;
 }
 
-.p1,.p2{
+.p1 {
   margin-left: 24px;
-}
-
-.p1{
   margin-top: 42px;
-}
-
-.p2 {
-  margin-top: 20px;
 }
 
 .switcha{

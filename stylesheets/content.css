@@ -749,7 +749,7 @@ overflow: hidden;
   display: none;
 }
 
-.p1, .p2 {
+.p1 {
   width: 230px;
   margin-left: 33px;
   font-family: 'Raleway', sans-serif;
@@ -758,15 +758,9 @@ overflow: hidden;
   font-size: 18px;
   line-height: 21px;
   color: #313F86;
-}
-
-.p1{
   margin-top: 42px;
 }
 
-.p2 {
-  margin-top: 20px;
-}
 
 .winflex {
   display: flex;
