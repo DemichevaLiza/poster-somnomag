@@ -8,14 +8,17 @@ body {
 .body-on {
   background-color: #313F86;
 }
-a{
-   text-decoration: none;
-   color:  #313F86;
+
+a {
+  text-decoration: none;
+  color: #313F86;
 }
+
 a:hover {
   color: #313F86;
   border-bottom: .07em solid;
 }
+
 h1 {
   position: relative;
   margin-top: 110px;
@@ -57,11 +60,12 @@ p {
 .sheeps {
   display: none;
 }
+
 .sheepsshow {
   display: block;
 }
 
-.sheepflex{
+.sheepflex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -128,9 +132,9 @@ p {
 
 .sheepmain1, .sheep1, .sheep2, .sheep3, .sheep4, .sheep5, .sheep6, .sheep7, .sheep8, .sheep9, .sheep10, .sheep11, .sheep12, .sheepmain2, .sheepmain3, .sheepmain4, .sheepmain5, .sheepmain6, .sheepmain7, .sheepmain8, .sheepmain9, .sheepmain10,
 .sheepmain11, .sheepmain12 {
-width: 301px;
-height: 233px;
-cursor: pointer;
+  width: 301px;
+  height: 233px;
+  cursor: pointer;
 }
 
 .ropes {
@@ -148,7 +152,7 @@ cursor: pointer;
 
 .rope1 {
   background-image: url('../img/rope1.svg');
-  width:41px;
+  width: 41px;
   height: 688px;
   left: 58px;
   top: -688px;
@@ -156,13 +160,18 @@ cursor: pointer;
 }
 
 @keyframes rope1 {
-  0% {top: -688px}
-  100% {top: 0px;}
+  0% {
+    top: -688px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope2 {
   background-image: url('../img/rope2.svg');
-  width:58px;
+  width: 58px;
   height: 454px;
   left: 186px;
   top: -455px;
@@ -170,13 +179,18 @@ cursor: pointer;
 }
 
 @keyframes rope2 {
-  0% {top: -455px}
-  100% {top: 0px;}
+  0% {
+    top: -455px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope3 {
   background-image: url('../img/rope3.svg');
-  width:116px;
+  width: 116px;
   height: 245px;
   left: 302px;
   top: -245px;
@@ -184,13 +198,18 @@ cursor: pointer;
 }
 
 @keyframes rope3 {
-  0% {top: -245px}
-  100% {top: 0px;}
+  0% {
+    top: -245px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope4 {
   background-image: url('../img/rope4.svg');
-  width:131px;
+  width: 131px;
   height: 691px;
   left: 484px;
   top: -691px;
@@ -198,13 +217,18 @@ cursor: pointer;
 }
 
 @keyframes rope4 {
-  0% {top: -691px}
-  100% {top: 0px;}
+  0% {
+    top: -691px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope5 {
   background-image: url('../img/rope5.svg');
-  width:69px;
+  width: 69px;
   height: 898px;
   left: 696px;
   top: -898px;
@@ -212,13 +236,18 @@ cursor: pointer;
 }
 
 @keyframes rope5 {
-  0% {top: -898px}
-  100% {top: 0px;}
+  0% {
+    top: -898px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope6 {
   background-image: url('../img/rope6.svg');
-  width:41px;
+  width: 41px;
   height: 292px;
   left: 842px;
   top: -292px;
@@ -226,13 +255,18 @@ cursor: pointer;
 }
 
 @keyframes rope6 {
-  0% {top: -292px}
-  100% {top: 0px;}
+  0% {
+    top: -292px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope7 {
   background-image: url('../img/rope7.svg');
-  width:235px;
+  width: 235px;
   height: 698px;
   left: 900px;
   top: -698px;
@@ -240,13 +274,18 @@ cursor: pointer;
 }
 
 @keyframes rope7 {
-  0% {top: -698px}
-  100% {top: 0px;}
+  0% {
+    top: -698px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope8 {
   background-image: url('../img/rope8.svg');
-  width:198px;
+  width: 198px;
   height: 903px;
   left: 1164px;
   top: -903px;
@@ -254,13 +293,18 @@ cursor: pointer;
 }
 
 @keyframes rope8 {
-  0% {top: -903px}
-  100% {top: 0px;}
+  0% {
+    top: -903px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope9 {
   background-image: url('../img/rope9.svg');
-  width:90px;
+  width: 90px;
   height: 353px;
   left: 1365px;
   top: -353px;
@@ -268,13 +312,18 @@ cursor: pointer;
 }
 
 @keyframes rope9 {
-  0% {top: -353px}
-  100% {top: 0px;}
+  0% {
+    top: -353px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope10 {
   background-image: url('../img/rope10.svg');
-  width:41px;
+  width: 41px;
   height: 691px;
   left: 1528px;
   top: -691px;
@@ -283,14 +332,18 @@ cursor: pointer;
 }
 
 @keyframes rope10 {
-  0% {top: -691px}
-  100% {top: 0px;}
-}
+  0% {
+    top: -691px
+  }
 
+  100% {
+    top: 0px;
+  }
+}
 
 .rope12 {
   background-image: url('../img/rope12.svg');
-  width:100px;
+  width: 100px;
   height: 555px;
   left: 1804px;
   top: -555px;
@@ -298,8 +351,13 @@ cursor: pointer;
 }
 
 @keyframes rope12 {
-  0% {top: -555px}
-  100% {top: 0px;}
+  0% {
+    top: -555px
+  }
+
+  100% {
+    top: 0px;
+  }
 }
 
 .rope-swing {
@@ -307,14 +365,23 @@ cursor: pointer;
   top: 0px;
 }
 
- @keyframes swing {
-   0% {transform: rotateZ(0deg) translateX(0px);}
-   25% {transform: rotateZ(2deg) translateX(-25px);}
-   50% {transform: rotateZ(0deg) translateX(0px);}
-   75% {transform: rotateZ(-2deg) translateX(25px);}
+@keyframes swing {
+  0% {
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  25% {
+    transform: rotateZ(2deg) translateX(-25px);
+  }
+
+  50% {
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  75% {
+    transform: rotateZ(-2deg) translateX(25px);
+  }
 }
-
-
 
 .sectionballs {
   display: none;
@@ -323,8 +390,8 @@ cursor: pointer;
 .sballs-off {
   display: block;
   width: 100%;
-height: 100%;
-overflow: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 
 .balls {
@@ -769,7 +836,6 @@ overflow: hidden;
   color: #313F86;
   margin-top: 42px;
 }
-
 
 .winflex {
   display: flex;
@@ -1712,75 +1778,85 @@ overflow: hidden;
 }
 
 .cloud1 {
-  background-image:url('../img/cloud1.svg');
+  background-image: url('../img/cloud1.svg');
   width: 229px;
   height: 139px;
   top: 260px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 25s infinite;
 }
 
 @keyframes cloud1 {
-  0% {left: -1000px;}
-100% {left: 2000px;}
+  0% {
+    left: -1000px;
+  }
+
+  100% {
+    left: 2000px;
+  }
 }
 
 .cloud2 {
-  background-image:url('../img/cloud2.svg');
+  background-image: url('../img/cloud2.svg');
   width: 607px;
   height: 381px;
   top: 530px;
-  position:absolute;
+  position: absolute;
   animation: cloud2 30s infinite;
 }
 
 @keyframes cloud2 {
-  0% {left: -1500px;}
-100% {left: 2000px;}
+  0% {
+    left: -1500px;
+  }
+
+  100% {
+    left: 2000px;
+  }
 }
 
 .cloud3 {
-  background-image:url('../img/cloud3.svg');
+  background-image: url('../img/cloud3.svg');
   width: 452px;
   height: 340px;
   top: 45px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 35s infinite;
 }
 
 .cloud4 {
-  background-image:url('../img/cloud4.svg');
+  background-image: url('../img/cloud4.svg');
   width: 168px;
   height: 106px;
   top: 258px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 15s infinite;
 }
 
 .cloud5 {
-  background-image:url('../img/cloud5.svg');
+  background-image: url('../img/cloud5.svg');
   width: 660px;
   height: 378px;
   top: 596px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 20s infinite;
 }
 
 .cloud6 {
-  background-image:url('../img/cloud6.svg');
+  background-image: url('../img/cloud6.svg');
   width: 232px;
   height: 175px;
   top: 87px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 18s infinite;
 }
 
 .cloud7 {
-  background-image:url('../img/cloud7.svg');
+  background-image: url('../img/cloud7.svg');
   width: 347px;
   height: 242px;
   top: 270px;
-  position:absolute;
+  position: absolute;
   animation: cloud1 40s infinite;
 }
 
@@ -1808,14 +1884,22 @@ overflow: hidden;
   left: 20%;
 }
 
-.star-random1-on{
+.star-random1-on {
   animation: random1 3s linear infinite;
 }
 
 @keyframes random1 {
-  0% {transform: scale(1),rotate(15deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(15deg);}
+  0% {
+    transform: scale(1), rotate(15deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(15deg);
+  }
 }
 
 .star-random2 {
@@ -1824,14 +1908,22 @@ overflow: hidden;
   left: 45%;
 }
 
-.star-random2-on{
+.star-random2-on {
   animation: random2 3s linear infinite;
 }
 
 @keyframes random2 {
-  0% {transform: scale(1),rotate(40deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(40deg);}
+  0% {
+    transform: scale(1), rotate(40deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(40deg);
+  }
 }
 
 .star-random3 {
@@ -1840,14 +1932,22 @@ overflow: hidden;
   left: 5%;
 }
 
-.star-random3-on{
+.star-random3-on {
   animation: random3 3s linear infinite;
 }
 
 @keyframes random3 {
-  0% {transform: scale(1),rotate(30deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(30deg);}
+  0% {
+    transform: scale(1), rotate(30deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(30deg);
+  }
 }
 
 .star-random4 {
@@ -1856,14 +1956,22 @@ overflow: hidden;
   left: 1%;
 }
 
-.star-random4-on{
+.star-random4-on {
   animation: random4 3s linear infinite;
 }
 
 @keyframes random4 {
-  0% {transform: scale(1),rotate(20deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(20deg);}
+  0% {
+    transform: scale(1), rotate(20deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(20deg);
+  }
 }
 
 .star-random5 {
@@ -1872,14 +1980,22 @@ overflow: hidden;
   left: 60%;
 }
 
-.star-random5-on{
+.star-random5-on {
   animation: random5 3s linear infinite;
 }
 
 @keyframes random5 {
-  0% {transform: scale(1),rotate(10deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(10deg);}
+  0% {
+    transform: scale(1), rotate(10deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(10deg);
+  }
 }
 
 .star-random6 {
@@ -1888,14 +2004,22 @@ overflow: hidden;
   left: 5%;
 }
 
-.star-random6-on{
+.star-random6-on {
   animation: random6 3s linear infinite;
 }
 
 @keyframes random6 {
-  0% {transform: scale(1),rotate(65deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(65deg);}
+  0% {
+    transform: scale(1), rotate(65deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(65deg);
+  }
 }
 
 .star-random7 {
@@ -1904,14 +2028,22 @@ overflow: hidden;
   left: 90%;
 }
 
-.star-random7-on{
+.star-random7-on {
   animation: random7 3s linear infinite;
 }
 
 @keyframes random7 {
-  0% {transform: scale(1),rotate(90deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(90deg);}
+  0% {
+    transform: scale(1), rotate(90deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(90deg);
+  }
 }
 
 .star-random8 {
@@ -1920,30 +2052,46 @@ overflow: hidden;
   left: 30%;
 }
 
-.star-random8-on{
+.star-random8-on {
   animation: random8 3s linear infinite;
 }
 
 @keyframes random8 {
-  0% {transform: scale(1),rotate(50deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(50deg);}
+  0% {
+    transform: scale(1), rotate(50deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(50deg);
+  }
 }
 
 .star-random9 {
   transform: rotate(35deg);
-  top:80%;
+  top: 80%;
   left: 80%;
 }
 
-.star-random9-on{
+.star-random9-on {
   animation: random9 3s linear infinite;
 }
 
 @keyframes random9 {
-  0% {transform: scale(1),rotate(35deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(35deg);}
+  0% {
+    transform: scale(1), rotate(35deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(35deg);
+  }
 }
 
 .star-random10 {
@@ -1952,14 +2100,22 @@ overflow: hidden;
   left: 70%;
 }
 
-.star-random10-on{
+.star-random10-on {
   animation: random10 3s linear infinite;
 }
 
 @keyframes random10 {
-  0% {transform: scale(1),rotate(15deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(15deg);}
+  0% {
+    transform: scale(1), rotate(15deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(15deg);
+  }
 }
 
 .star-random11 {
@@ -1968,14 +2124,22 @@ overflow: hidden;
   left: 20%;
 }
 
-.star-random11-on{
+.star-random11-on {
   animation: random11 3s linear infinite;
 }
 
 @keyframes random11 {
-  0% {transform: scale(1),rotate(5deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(5deg);}
+  0% {
+    transform: scale(1), rotate(5deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(5deg);
+  }
 }
 
 .star-random12 {
@@ -1984,14 +2148,22 @@ overflow: hidden;
   left: 40%;
 }
 
-.star-random12-on{
+.star-random12-on {
   animation: random12 3s linear infinite;
 }
 
 @keyframes random12 {
-  0% {transform: scale(1),rotate(25deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(25deg);}
+  0% {
+    transform: scale(1), rotate(25deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(25deg);
+  }
 }
 
 .star-random13 {
@@ -2000,14 +2172,22 @@ overflow: hidden;
   left: 75%;
 }
 
-.star-random13-on{
+.star-random13-on {
   animation: random13 3s linear infinite;
 }
 
 @keyframes random13 {
-  0% {transform: scale(1),rotate(25deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(25deg);}
+  0% {
+    transform: scale(1), rotate(25deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(25deg);
+  }
 }
 
 .star-random14 {
@@ -2016,14 +2196,22 @@ overflow: hidden;
   left: 85%;
 }
 
-.star-random14-on{
+.star-random14-on {
   animation: random14 3s linear infinite;
 }
 
 @keyframes random14 {
-  0% {transform: scale(1),rotate(25deg);}
-  50% {transform: scale(1.5);}
-  100% {transform: scale(1),rotate(25deg);}
+  0% {
+    transform: scale(1), rotate(25deg);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1), rotate(25deg);
+  }
 }
 
 .figures {
@@ -2060,7 +2248,7 @@ overflow: hidden;
 .figure3 {
   background-image: url('../img/figure3.svg');
   background-repeat: no-repeat;
-  width:425px;
+  width: 425px;
   height: 590px;
   left: 33%;
   animation: figure3 5s linear infinite;
@@ -2087,7 +2275,7 @@ overflow: hidden;
 .figure6 {
   background-image: url('../img/figure6.svg');
   background-repeat: no-repeat;
-  width:425px;
+  width: 425px;
   height: 590px;
   left: 75%;
   animation: figure6 5s linear infinite;
@@ -2115,7 +2303,7 @@ overflow: hidden;
 .figure9 {
   background-image: url('../img/figure9.svg');
   background-repeat: no-repeat;
-  width:425px;
+  width: 425px;
   height: 590px;
   left: 25%;
   top: 50%;
@@ -2163,79 +2351,183 @@ overflow: hidden;
 }
 
 @keyframes figure1 {
-  0% {background-image: url('../img/figure1.svg');}
-  50% {background-image: url('../img/figure1on.svg');}
-  100% {background-image: url('../img/figure1.svg');}
+  0% {
+    background-image: url('../img/figure1.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure1on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure1.svg');
+  }
 }
 
 @keyframes figure2 {
-  0% {background-image: url('../img/figure2.svg');}
-  50% {background-image: url('../img/figure2on.svg');}
-  100% {background-image: url('../img/figure2.svg');}
+  0% {
+    background-image: url('../img/figure2.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure2on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure2.svg');
+  }
 }
 
 @keyframes figure3 {
-  0% {background-image: url('../img/figure3.svg');}
-  50% {background-image: url('../img/figure3on.svg');}
-  100% {background-image: url('../img/figure3.svg');}
+  0% {
+    background-image: url('../img/figure3.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure3on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure3.svg');
+  }
 }
 
 @keyframes figure4 {
-  0% {background-image: url('../img/figure4.svg');}
-  50% {background-image: url('../img/figure4on.svg');}
-  100% {background-image: url('../img/figure4.svg');}
+  0% {
+    background-image: url('../img/figure4.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure4on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure4.svg');
+  }
 }
 
 @keyframes figure5 {
-  0% {background-image: url('../img/figure5.svg');}
-  50% {background-image: url('../img/figure5on.svg');}
-  100% {background-image: url('../img/figure5.svg');}
+  0% {
+    background-image: url('../img/figure5.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure5on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure5.svg');
+  }
 }
 
 @keyframes figure6 {
-  0% {background-image: url('../img/figure6.svg');}
-  50% {background-image: url('../img/figure6on.svg');}
-  100% {background-image: url('../img/figure6.svg');}
+  0% {
+    background-image: url('../img/figure6.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure6on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure6.svg');
+  }
 }
 
 @keyframes figure7 {
-  0% {background-image: url('../img/figure7.svg');}
-  50% {background-image: url('../img/figure7on.svg');}
-  100% {background-image: url('../img/figure7.svg');}
+  0% {
+    background-image: url('../img/figure7.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure7on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure7.svg');
+  }
 }
 
 @keyframes figure8 {
-  0% {background-image: url('../img/figure8.svg');}
-  50% {background-image: url('../img/figure8on.svg');}
-  100% {background-image: url('../img/figure8.svg');}
+  0% {
+    background-image: url('../img/figure8.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure8on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure8.svg');
+  }
 }
 
 @keyframes figure9 {
-  0% {background-image: url('../img/figure9.svg');}
-  50% {background-image: url('../img/figure9on.svg');}
-  100% {background-image: url('../img/figure9.svg');}
+  0% {
+    background-image: url('../img/figure9.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure9on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure9.svg');
+  }
 }
 
 @keyframes figure10 {
-  0% {background-image: url('../img/figure10.svg');}
-  50% {background-image: url('../img/figure10on.svg');}
-  100% {background-image: url('../img/figure10.svg');}
+  0% {
+    background-image: url('../img/figure10.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure10on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure10.svg');
+  }
 }
 
 @keyframes figure11 {
-  0% {background-image: url('../img/figure11.svg');}
-  50% {background-image: url('../img/figure11on.svg');}
-  100% {background-image: url('../img/figure11.svg');}
+  0% {
+    background-image: url('../img/figure11.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure11on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure11.svg');
+  }
 }
 
 @keyframes figure12 {
-  0% {background-image: url('../img/figure12.svg');}
-  50% {background-image: url('../img/figure12on.svg');}
-  100% {background-image: url('../img/figure12.svg');}
+  0% {
+    background-image: url('../img/figure12.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure12on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure12.svg');
+  }
 }
 
 @keyframes figure13 {
-  0% {background-image: url('../img/figure13.svg');}
-  50% {background-image: url('../img/figure13on.svg');}
-  100% {background-image: url('../img/figure13.svg');}
+  0% {
+    background-image: url('../img/figure13.svg');
+  }
+
+  50% {
+    background-image: url('../img/figure13on.svg');
+  }
+
+  100% {
+    background-image: url('../img/figure13.svg');
+  }
 }

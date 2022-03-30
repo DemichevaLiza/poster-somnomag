@@ -268,6 +268,7 @@
   $(document).ready(function() {
     $('.rope4').click(function() {
       $(".rope4").toggleClass("rope-swing");
+      $(".rope4").toggleClass("rope-swing1");
     });
   });
 
