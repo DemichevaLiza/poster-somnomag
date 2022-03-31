@@ -48,130 +48,129 @@ p {
 .main-off {
   display: none;
 }
+
 .p2 {
   font-size: 18px;
-  color:  #313F86;
+  color: #313F86;
   width: 230px;
   margin-top: 40px;
   margin-left: 30px;
   font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
-
 
 .wrapper {
   display: none;
-	height: 160px;
-	top: 380px;
+  height: 160px;
+  top: 380px;
   left: 62px;
-	position: absolute;
-	width: 290px;
+  position: absolute;
+  width: 290px;
   z-index: 50;
 }
 
 .slider {
-	background-color: #EDF8FF;
+  background-color: #EDF8FF;
   border: 1px solid #313F86;
   border-radius: 40px;
-	height:145px;
-	overflow: hidden;
-	position: absolute;
-	width: 290px;
+  height: 145px;
+  overflow: hidden;
+  position: absolute;
+  width: 290px;
 }
 
-.wrapper > input {
-	display: none;
+.wrapper>input {
+  display: none;
 }
 
 .slides {
-	height: inherit;
-	position: absolute;
-	width: inherit;
+  height: inherit;
+  position: absolute;
+  width: inherit;
 }
 
 .wrapper .controls {
-	left: 180px;
-	margin-left: -95px;
-	position: absolute;
+  left: 180px;
+  margin-left: -95px;
+  position: absolute;
 }
 
 .wrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 8px;
-	margin: 25px 12px 0 16px;
-	position: relative;
-	width: 8px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin: 25px 12px 0 16px;
+  position: relative;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .wrapper label:after {
-	border: 2px solid #313F86;
-	content: " ";
-	display: block;
-	height: 14px;
-	left: -4px;
-	position: absolute;
-	top: -4px;
-	width: 14px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
+  border: 2px solid #313F86;
+  content: " ";
+  display: block;
+  height: 14px;
+  left: -4px;
+  position: absolute;
+  top: -4px;
+  width: 14px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .wrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 10px;
-	margin: 160px 10px 0 14px;
-	position: relative;
-	width: 10px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-transition: background ease-in-out .5s;
-	-moz-transition: background ease-in-out .5s;
-	-o-transition: background ease-in-out .5s;
-	transition: background ease-in-out .5s;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 160px 10px 0 14px;
+  position: relative;
+  width: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background ease-in-out .5s;
+  -moz-transition: background ease-in-out .5s;
+  -o-transition: background ease-in-out .5s;
+  transition: background ease-in-out .5s;
 }
 
 .wrapper label:hover,
-#slide1:checked ~ .controls label:nth-of-type(1),
-#slide2:checked ~ .controls label:nth-of-type(2),
-#slide3:checked ~ .controls label:nth-of-type(3),
-#slide4:checked ~ .controls label:nth-of-type(4),
-#slide5:checked ~ .controls label:nth-of-type(5) {
-	background: #313F86;
+#slide1:checked~.controls label:nth-of-type(1),
+#slide2:checked~.controls label:nth-of-type(2),
+#slide3:checked~.controls label:nth-of-type(3),
+#slide4:checked~.controls label:nth-of-type(4),
+#slide5:checked~.controls label:nth-of-type(5) {
+  background: #313F86;
 }
 
 .slides {
-	height: inherit;
-	opacity: 0;
-	position: absolute;
-	width: inherit;
-	z-index: 0;
-	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
-	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  height: inherit;
+  opacity: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 0;
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-#slide1:checked ~ .slider > .slide1,
-#slide2:checked ~ .slider > .slide2,
-#slide3:checked ~ .slider > .slide3,
-#slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
-	opacity: 1;
-	z-index: 1;
+#slide1:checked~.slider>.slide1,
+#slide2:checked~.slider>.slide2,
+#slide3:checked~.slider>.slide3,
+#slide4:checked~.slider>.slide4,
+#slide5:checked~.slider>.slide5 {
+  opacity: 1;
+  z-index: 1;
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6 {
@@ -1418,11 +1417,13 @@ line-height: 21px;
   color: #313F86;
   margin-left: 50px;
 }
+
 .star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .star9, .star10, .star11, .star12 {
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
 }
+
 .star1 {
   background-image: url('../img/star 1.svg');
   position: absolute;
