@@ -18,6 +18,11 @@ body {
   top: 110px;
   left: 1590px;
   background-size: 40%;
+  display: block;
+}
+
+.logo-off{
+  display: none;
 }
 a {
   text-decoration: none;
@@ -531,6 +536,7 @@ p {
 .balls {
   position: relative;
   display: flex;
+  left: -10px;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1920px;

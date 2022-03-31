@@ -399,6 +399,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    left: -10px;
     justify-content: space-between;
     width: 1920px;
     height: 1080px;

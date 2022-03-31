@@ -57,6 +57,7 @@
       $(".sectionswf").toggleClass("swf-off");
       $(".section1").toggleClass("s1");
       $(".sectionballs").toggleClass("sballs-off");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
@@ -72,6 +73,7 @@
       $(".sectionswf").toggleClass("swf-off");
       $(".section2").toggleClass("s2");
       $(".figures").toggleClass("figures-on");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
@@ -86,6 +88,7 @@
       $(".sectionswf").toggleClass("swf-off");
       $(".section3").toggleClass("s3");
       $(".random").toggleClass("random-on");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
@@ -100,6 +103,7 @@
       $(".sectionswf").toggleClass("swf-off");
       $(".section4").toggleClass("s4");
       $(".clouds").toggleClass("cloudsshow");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
@@ -114,6 +118,7 @@
       $(".sectionswf").toggleClass("swf-off");
       $(".sheeps").toggleClass("sheepsshow");
       $(".section5").toggleClass("s5");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
@@ -128,6 +133,7 @@
       $(".sectionswe").toggleClass("swf-off");
       $(".section6").toggleClass("s6");
       $(".ropes").toggleClass("ropes-show");
+      $(".logo").toggleClass("logo-off");
     });
   });
 
