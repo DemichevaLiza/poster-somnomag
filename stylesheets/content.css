@@ -1420,8 +1420,8 @@ p {
 
 .star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .star9, .star10, .star11, .star12 {
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 30px;
+  height: 30px;
 }
 
 .star1 {

@@ -3711,7 +3711,7 @@
 
   /* iPhone Portrait */
   h1 {
-    width: 400px;
+    width: 330px;
     font-size: 30px;
     height: 33px;
     margin-left: 44px;
@@ -3722,13 +3722,20 @@
     font-size: 20px;
     width: 280px;
     margin-left: 44px;
-    margin-top: 65px;
+    margin-top: 45px;
   }
 
   .winflex {
     display: none;
   }
 
+ .window1, .window2, .window3{
+   width: 291px;
+height: 145px;
+left: 62px;
+top: 380px;
+
+ }
   .wrapper {
     display: block;
   }
@@ -3738,10 +3745,33 @@
     height: 50px;
   }
 
-  .circleswitcha, .circleswitchb, .circleswitchc, .circleswitchd, .circleswitche, .circleswitchf {
+  .switcha-on, .switchb-on, .switchc-on, .switchd-on, .switche-on, .switchf-on {
+    width: 145px;
+    height: 50px;
+    border: 1px solid  #313F86;
+  }
+
+
+   .circleswitchb, .circleswitchc, .circleswitchd, .circleswitche, .circleswitchf {
     width: 35px;
     height: 35px;
+    top: 7px;
+    left: 7px;
   }
+  .circleswitcha{
+    width: 35px;
+    height: 35px;
+     top: 5px;
+     left: 7px;
+   }
+
+.circleswitcha-on, .circleswitchb-on, .circleswitchc-on, .circleswitchd-on, .circleswitche-on, .circleswitchf-on {
+   width: 35px;
+   height: 35px;
+   top: 7px;
+   left: 102px;
+ }
+
 
   .switcha {
     left: 44px;
@@ -3777,16 +3807,41 @@
     background-size: 50%;
   }
 
+.img1{
+  left: 15%;
+  top: 16%;
+}
+.img2{
+  left: 12%;
+  top: 30%;
+}
+.img3{
+  left: 15%;
+  top: 18%;
+}
+.img4{
+  left: 15%;
+  top: 25%;
+}
+.img5{
+  left: 20%;
+  top: 25%;
+}
+.img6{
+  left: 18%;
+  top: 20%;
+}
   .futer {
     width: 308px;
     margin-left: 36px;
     margin-top: 505px;
-    font-size: 14px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
+.name, .group, .hseadc, .year {
+  font-size: 14px;
+}
   .group {
     margin-left: 60px;
   }
@@ -3801,7 +3856,7 @@
   }
 
   .star1, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .star9 {
-    background-size: 25%;
+    background-size: 60%;
   }
 
   .sectionmain {
@@ -3844,12 +3899,245 @@
   }
 
   .star8 {
-    left: 390.24px;
-    top: 436.85px;
+    left: 355.24px;
+    top: 559.85px;
   }
 
   .star9 {
     left: 396.34px;
     top: 725.92px;
   }
+
+  .ball, .ball1, .ball2, .ball3, .ball4, .ball5, .ball6, .ball7, .ball8, .ball9, .ball10, .ball11, .ball12, .ball13 {
+      width: 30px;
+      height: 30px;
+  }
+
+  .balls {
+    width: 414px;
+    left: -10px;
+}
+.figure1 {
+    width: 168px;
+    height: 255px;
+    left: 3%;
+}
+.figure1, .figure2, .figure3, .figure4, .figure5, .figure6, .figure7, .figure8, .figure9, .figure10, .figure11, .figure12, .figure13 {
+    background-size: 70%;
+}
+.figure2 {
+    width: 337px;
+    height: 360px;
+    left: 10%;
+}
+.figure3 {
+    width: 164px;
+    height: 156px;
+    left: 52%;
+    top: 10%;
+}
+.figure4 {
+    left: 22%;
+    top: 60%;
+    width: 152px;
+    height: 255px;
+}
+.figure5 {
+    width: 129px;
+    height: 207px;
+    left: 63%;
+    top: 20%;
+}
+.figure6 {
+    width: 161px;
+    height: 154px;
+    left: 30%;
+    top: 30%;
+}
+.figure7 {
+    top: 42%;
+    width: 149px;
+    height: 220px;
+    left: 5%;
+}
+.figure8 {
+    width: 220px;
+    height: 185px;
+    top: 70%;
+}
+.figure9 {
+    left: 45%;
+    top: 85%;
+    width: 119px;
+height: 303px;
+}
+.figure10 {
+    width: 175px;
+    height: 255px;
+    left: 48%;
+    top: 50%;
+}
+.figure11 {
+    left: 40%;
+    top: 65%;
+    width: 219px;
+    height: 160px;
+}
+.figure12 {
+    width: 179px;
+    height: 166px;
+    left: 10%;
+    top: 25%;
+}
+.figure13 {
+    left: 0%;
+    top: 100%;
+    width: 212px;
+    height: 339px;
+}
+
+.star-random11 {
+  top: 25%;
+    left: 30%;
+}
+.star-random9 {
+    top: 80%;
+    left: 70%;
+}
+.star-random14 {
+    top: 70%;
+    left: 55%;
+}
+.star-random8 {
+    top: 90%;
+    left: 50%;
+}
+.star-random5 {
+    top: 20%;
+    left: 60%;
+}
+.star-random7 {
+  top: 40%;
+    left: 70%;
+  }
+.star-random1, .star-random2, .star-random3, .star-random4, .star-random5, .star-random6, .star-random7, .star-random8, .star-random9, .star-random10, .star-random11, .star-random12, .star-random13, .star-random14, .star-random15, .star-random16 {
+    width: 75px;
+    height: 59px;
+    background-size: 80%;
+}
+.sheepflex {
+    width: 368px;
+    height: 247px;
+    margin-left: 27px;
+    margin-top: 18px;
+}
+.sheepmain1, .sheep1, .sheep2, .sheep3, .sheep4, .sheep5, .sheep6, .sheep7, .sheep8, .sheep9, .sheep10, .sheep11, .sheep12, .sheepmain2, .sheepmain3, .sheepmain4, .sheepmain5, .sheepmain6, .sheepmain7, .sheepmain8, .sheepmain9, .sheepmain10, .sheepmain11, .sheepmain12 {
+    width: 184px;
+    background-size: 90%;
+    height: 131px;
+}
+.rope1, .rope2, .rope3, .rope4, .rope5, .rope6, .rope7, .rope8, .rope9, .rope10, .rope11, .rope12 {
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.rope1 {
+    width: 41px;
+    height: 688px;
+    left: 19px;
+    top: -688px;
+}
+.rope12 {
+    left: 47px;
+    width: 100px;
+height: 555px;
+z-index: -1;
+}
+.rope2 {
+    left: 154px;
+    animation: rope2 4s ease forwards;
+}
+.rope3 {
+    left: 243px;
+    width: 89px;
+}
+.rope4 {
+    display: none;
+}
+.rope5 {
+    display: none;
+}
+.rope7 {
+    display: none;
+}
+.rope6 {
+    left: 110px;
+    background-image: url(../img/rope6.svg);
+}
+.rope8 {
+    left: 157px;
+    background-image: url(../img/rope81.svg);
+    animation: rope81 4s ease forwards;
+    z-index: -1;
+}
+.rope10 {
+    left: 374px;
+}
+.rope9 {
+    left: 311px;
+}
+@keyframes rope81 {
+  0% {
+    top: -903px
+  }
+
+  100% {
+    top: -160px;
+  }
+}
+
+.rope-swing2 {
+  animation: swing2 3s linear infinite;
+  top: 0px;
+}
+
+.rope-swing1 {
+  animation: swing1 3s linear infinite;
+  top: 0px;
+}
+
+@keyframes swing2 {
+  0% {top: -160px;
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  25% {top: -160px;
+    transform: rotateZ(2deg) translateX(-25px);
+  }
+  50% {top: -160px;
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  75% {top: -160px;
+    transform: rotateZ(-2deg) translateX(25px);
+  }
+  100%{top: -160px;}
+}
+
+@keyframes swing1 {
+  0% {top: 0px;
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  25% {top: 0px;
+    transform: rotateZ(2deg) translateX(-25px);
+  }
+  50% {top: 0px;
+    transform: rotateZ(0deg) translateX(0px);
+  }
+
+  75% {top: 0px;
+    transform: rotateZ(-2deg) translateX(25px);
+  }
+  100%{top: 0px;}
+}
 }

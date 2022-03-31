@@ -295,6 +295,7 @@
   $(document).ready(function() {
     $('.rope8').click(function() {
       $(".rope8").toggleClass("rope-swing");
+      $(".rope8").toggleClass("rope-swing2");
     });
   });
 
